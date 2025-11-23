@@ -27,7 +27,7 @@ export const getWorkspaces = async () => {
             WORKSPACES_ID,
             [
                 Query.orderDesc("$createdAt"),
-                Query.contains("$id", workspaceIds)
+
             ],
         );
 
